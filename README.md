@@ -1,2 +1,2 @@
 # Serial-communication-using-Raspberry-Pi
-This is a small project used to demonstrate the serial communication
+This is a small project used to demonstrate the serial communication without using USB to TTL driver
