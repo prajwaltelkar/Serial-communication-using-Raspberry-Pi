@@ -21,4 +21,4 @@ These steps would work the required.
 
 ### INTERFACING
 
-<img src="images/pins.jpg">
+<img src="images/Interfacing diagram.JPG" width="800" height="400">
