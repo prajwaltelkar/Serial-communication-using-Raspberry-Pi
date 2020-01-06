@@ -1,5 +1,5 @@
 # Serial-communication-using-Raspberry-Pi
-### Encouraged by  <a href="www.appiko.com">Appiko</a>
+### Encouraged by  <a href="https://appiko.org/">Appiko</a>
 
 ### OBJECTIVE
 
