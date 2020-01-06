@@ -1,0 +1,38 @@
+Steps to configure Raspberry Pi.
+
+Using the PL011 UART port
+
+For Raspbian Linux releases after 18th March 2016 there is a device tree file called 
+pi3-miniuart-bt which makes the Raspberry Pi disable the Bluetooth module and map pl011 UART on pins 14 and 15 as before.
+
+Step 1 - Login via terminal or desktop and shell
+
+Step 2 - Add device tree to /boot/config.txt to disable the bluetooth module.
+         sudo nano /boot/config.txt
+
+         Add at the end of the file
+         dtoverlay=pi3-miniuart-bt
+
+Step 3 - Exit the editor saving your changes and then:
+         sudo reboot
+
+Disabling the Serial Console
+
+The serial console on Raspberry Pi Stretch is enabled by default.
+To use the UART port with serial devices you will need to disable the console.
+
+
+Step 1 - To disable the serial console, you need to edit the /boot/cmdline.txt file
+
+         sudo nano /boot/cmdline.txt
+
+Step 2 - Find the following text and remove it:
+
+         console=serial0,115200
+
+Step 3 - Exit the editor saving your changes and then:
+
+sudo reboot
+
+With the serial console disabled you can now access the UART serial port at /dev/ttyAMA0.
+ 
