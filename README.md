@@ -11,14 +11,14 @@ instead of a USB to TTL driver.This experiment helps us to understand how to ser
 This is conducted with windows as the operating system.
 
 ### PROCEDURE
-I shall explain this experiments through the steps as follows.
-Step 1:Using sudo raspi-config command ,enable the UART.(Make sure you have PySerial package installed).
-Step 2:Follow the commands to be prompted to configure RPi in the sheet I have uploaded.
-Step 3:Install any serial terminal PC application (in my case HW Hercules).
-Step 4:Check for the COM port in Device Manager.
-Step 5:Run the python code present in my link.
-These steps would work the required.
+I shall explain this experiments through the steps as follows.<br/>
+Step 1:Using sudo raspi-config command ,enable the UART.(Make sure you have PySerial package installed).<br/>
+Step 2:Follow the commands to be prompted to configure RPi in the sheet I have uploaded.<br/>
+Step 3:Install any serial terminal PC application (in my case HW Hercules).<br/>
+Step 4:Check for the COM port in Device Manager.<br/>
+Step 5:Run the python code present in my link.<br/>
+These steps would work the required.<br/>
 
-### INTERFACING
+### INTERFACING DIAGRAM
 
 <img src="images/Interfacing diagram.JPG" width="800" height="400">
