@@ -3,7 +3,7 @@
 
 ### OBJECTIVE
 
-To demonstrate the serial communication without using USB to TTL driver
+To demonstrate the serial communication without using USB to TTL driver.
 
 ### INTRODUCTION
 
