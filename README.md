@@ -12,12 +12,17 @@ This is conducted with windows as the operating system.
 
 ### PROCEDURE
 I shall explain this experiments through the steps as follows.<br/>
-Step 1:Using sudo raspi-config command ,enable the UART.(Make sure you have PySerial package installed).<br/>
+Step 1:Using sudo raspi-config command ,enable the UART.<br/>
+<img src="images/1.JPG" width="400" height="200"> <br/>
+<img src="images/2.JPG" width="400" height="200"> <br/>
+<img src="images/3.JPG" width="400" height="200"> <br/>
+<img src="images/4.JPG" width="400" height="200"> <br/>
 Step 2:Follow the commands to be prompted to configure RPi in the sheet I have uploaded.<br/>
 Step 3:Install any serial terminal PC application (in my case HW Hercules).<br/>
 Step 4:Check for the COM port in Device Manager.<br/>
 Step 5:Run the python code present in my link.<br/>
 These steps would work the required.<br/>
+(Also make sure that you have PySerial package installed)
 
 ### INTERFACING DIAGRAM
 
