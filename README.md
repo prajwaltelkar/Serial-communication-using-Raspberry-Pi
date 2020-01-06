@@ -21,4 +21,4 @@ These steps would work the required.<br/>
 
 ### INTERFACING DIAGRAM
 
-<img src="images/Interfacing_diagram.JPG" width="800" height="400">
+<img src="images/Interfacing_diagram.jpg" width="800" height="400">
